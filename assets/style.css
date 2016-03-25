@@ -18,10 +18,31 @@ a{
     padding:.5%;
 }
 input:focus{
-    border:1px solid black;
-    color:black;
-    background-color: #ffbb33;
+    
     outline:0;
+    display:inline-block;
+    background: none repeat scroll 0% 0% #444;
+    color:#ffffff;
+    font-family: monospace;
+    font-weight: normal;
+    padding:1%;
+    border:3px solid #ffbb33;
+    border:1px solid black;
+}
+input:focus::-webkit-input-placeholder{
+    color:#f3f3f3;
+}
+input{
+    outline:0;
+    padding:1%;
+    border:0;
+    color:white;
+    background: none repeat scroll 0% 0% #444;
+    padding:1%;
+    font-family: monospace;
+}
+input::-webkit-input-placeholder{
+    color:white;
 }
 #container{width:80%;
     border:3px solid black;
@@ -56,8 +77,15 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
-#Brand{font-family: veranda;
+#Brand{font-family: monospace;
     font-size: xx-large;
+}
+#HERO{
+    font-family: monospace;
+    font-size: 36pt;
+}
+#intro{
+
 }
 #instructions{
     width:75%;

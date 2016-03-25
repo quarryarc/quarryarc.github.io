@@ -7,6 +7,10 @@ a{
     font-family: monospace;
     font-weight: bolder;
 }
+#keystone{
+    width: 40px;
+    float:right;
+}
 #bigsearch{
     width:80%;
     height: 3.125em;
@@ -39,17 +43,22 @@ footer{
 }
 nav>ul{list-style: none; padding: 1%; background-color: #ffbb33;}
 nav li{
-    display:inline;
-    border-right: 1px solid black;
+    font-size: large;
+    display:inline-block;
+    
     padding:1%;
-    margin:1%;
     vertical-align: super;
 }
 nav a{
     color:black;
     text-decoration: none;
 }
-#brand{font-family: veranda}
+nav a:hover{
+    text-decoration: underline;
+}
+#Brand{font-family: veranda;
+    font-size: xx-large;
+}
 #instructions{
     width:75%;
     display: inline-block;
@@ -78,6 +87,7 @@ hr{
     border-bottom: 1px dashed #ffbb33;
     
 }
+#btc{float: right;}
 
 none repeat scroll 0% 0% #444
 Source Sans Pro','Lucida Grande',sans-serif

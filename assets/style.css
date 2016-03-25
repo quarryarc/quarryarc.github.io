@@ -1,0 +1,83 @@
+body{
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+a{
+    
+    color: #0000ff;
+    font-family: monospace;
+    font-weight: bolder;
+}
+#bigsearch{
+    width:80%;
+    height: 3.125em;
+    font-size: large;
+    padding:.5%;
+}
+input:focus{
+    border:1px solid black;
+    color:black;
+    background-color: #ffbb33;
+    outline:0;
+}
+#container{width:80%;
+    border:3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f6ef;
+    padding:3%;
+}
+.cell{
+    width:30%;
+    display: inline-block;
+    border: 2px solid black;
+    padding:1%;
+}
+footer{
+    padding: 1%;
+    border-top: 3px solid #ffbb33;
+    margin-top: 1%;
+}
+nav>ul{list-style: none; padding: 1%; background-color: #ffbb33;}
+nav li{
+    display:inline;
+    border-right: 1px solid black;
+    padding:1%;
+    margin:1%;
+    vertical-align: super;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+}
+#brand{font-family: veranda}
+#instructions{
+    width:75%;
+    display: inline-block;
+
+}
+#stoneSignature{
+    width:20%;
+    display:inline-block;
+    border-left: 2px solid #ffbb33;
+    padding:1%;
+}
+.avatar{
+    display: inline-block;
+    width: 40px;
+}
+.codebox{
+display:inline-block;
+    background: none repeat scroll 0% 0% #444;
+    color:#f3f3f3;
+    font-family: monospace;
+    font-weight: normal;
+    padding:1%;
+}
+hr{
+    border: 0;
+    border-bottom: 1px dashed #ffbb33;
+    
+}
+
+none repeat scroll 0% 0% #444
+Source Sans Pro','Lucida Grande',sans-serif

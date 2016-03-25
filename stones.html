@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1> stones</h1>
+
+<ul>
+{% for stone in site.data.stones %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ stone.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

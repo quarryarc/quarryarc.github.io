@@ -4,13 +4,20 @@ layout: default
 <h1> stones</h1>
 <div>
     <table>
-    <tr><th>name</th><th>description</th><th>url</th></tr>
+    <tr><th>name</th><th>description</th><th>url</th><th>author</th></tr>
+    <tr>
+      <td>arcnews </td> 
+      <td> Hackernews style App</td>
+      <td><a href="./arcnews">/arcnews</a></td>
+      <td></td>
+    </tr>
     {% for stone in site.data.stones %}
 
     <tr>
       <td>{{ stone.name }} </td> 
       <td> {{stone.description}}</td>
       <td><a href="http://github.com/arclanguage/anarki/blob/master/lib{{stone.file}}">{{ stone.file }}</a></td>
+      <td></td>
     </tr>
     {% endfor %}
     </table>

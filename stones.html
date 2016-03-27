@@ -2,13 +2,17 @@
 layout: default
 ---
 <h1> stones</h1>
+<div>
+    <table>
+    <tr><th>name</th><th>description</th><th>url</th></tr>
+    {% for stone in site.data.stones %}
 
-<ul>
-{% for stone in site.data.stones %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ stone.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+    <tr>
+      <td>{{ stone.name }} </td> 
+      <td> {{stone.description}}</td>
+      <td><a href="http://github.com/arclanguage/anarki/blob/master/lib{{stone.file}}">{{ stone.file }}</a></td>
+    </tr>
+    {% endfor %}
+    </table>
+
+</div>

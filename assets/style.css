@@ -17,7 +17,8 @@ a{
     padding:2%;
 }
 #learnmore{
-    position: absolute;
+    position: relative;
+    top: -150;
 }
 #keystone{
     width: 40px;

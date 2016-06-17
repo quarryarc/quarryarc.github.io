@@ -104,10 +104,11 @@ footer{
 
 }
 #instructions{
-    width:75%;
-    display: inline-block;
-    position: relative;
-    top: -90;
+    width:75%;    
+}
+#stonepage{
+    display: flex;
+    justify-content: flex-start;
 }
 #stoneSignature{
     width:20%;

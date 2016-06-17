@@ -10,6 +10,9 @@ a{
     font-family: monospace;
     font-weight: bolder;
 }
+h1, br{
+    flex-basis: 100%;
+}
 nav>ul{list-style: none; padding: 1%; background-color: #ffbb33;}
 nav li{
     font-size: large;
@@ -134,7 +137,17 @@ hr{
     border-bottom: 1px dashed #ffbb33;
     
 }
-#btc{float: right;}
+#contribute{
+    display: flex;
+    flex-flow: row wrap;
+}
+#contribute *{
+    flex-basis: 100%;
+}
+
+#contribute ul{ flex-basis: 40% }
+
+#btc{flex-basis: 40%}
 
 none repeat scroll 0% 0% #444
 Source Sans Pro','Lucida Grande',sans-serif

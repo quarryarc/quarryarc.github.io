@@ -1,0 +1,169 @@
+html{}
+body{
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+a{
+    
+    color: #0000ff;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+nav>ul{list-style: none; padding: 1%; background-color: #ffbb33;}
+nav li{
+    font-size: large;
+    display:inline-block;
+    
+    padding:1%;
+    vertical-align: super;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#container{width:80%;
+    border:3px solid black;
+    background-color: #f6f6ef;
+    padding:3%;
+
+}
+.section{
+    margin-bottom: 1%;
+}
+.half{width: 45%;}
+#section-2{
+    display: flex;
+}
+#arcquotes{
+    width: 70%;
+    padding:2%;
+}
+#learnmore{
+    border-left: 3px solid #ffbb33;
+    padding:2%;
+}
+#keystone{
+    width: 40px;
+    float:right;
+}
+#bigsearch{
+    width:80%;
+    height: 3.125em;
+    font-size: large;
+    padding:.5%;
+}
+input:focus{
+    
+    outline:0;
+    display:inline-block;
+    background: none repeat scroll 0% 0% #444;
+    color:#ffffff;
+    font-family: monospace;
+    font-weight: normal;
+    padding:1%;
+    border:3px solid #ffbb33;
+    border:1px solid black;
+}
+input:focus::-webkit-input-placeholder{
+    color:#f3f3f3;
+}
+input{
+    outline:0;
+    padding:1%;
+    border:0;
+    color:white;
+    background: none repeat scroll 0% 0% #444;
+    padding:1%;
+    font-family: monospace;
+}
+input::-webkit-input-placeholder{
+    color:white;
+}
+.quote{
+    display: flex;
+    margin-bottom: 2%;
+}
+.quote-avatar{
+    width: 75px;
+    height: 75px;
+}
+.caption{
+    margin-left: 3%;
+}
+
+.cell{
+    width:30%;
+    display: inline-block;
+    border: 2px solid black;
+    padding:1%;
+}
+footer{
+    padding: 1%;
+    border-top: 3px solid #ffbb33;
+    margin-top: 1%;
+}
+
+#Brand{font-family: monospace;
+    font-size: xx-large;
+}
+#HERO{
+    font-family: monospace;
+    font-size: 36pt;
+}
+#intro{
+
+}
+#instructions{
+    width:75%;    
+}
+#stonepage{
+    display: flex;
+    justify-content: flex-start;
+}
+#stoneSignature{
+    width:20%;
+    display:inline-block;
+    border-left: 2px solid #ffbb33;
+    padding:1%;
+    
+}
+.avatar{
+    width: 40px;
+}
+
+.codebox{
+display:inline-block;
+    background: none repeat scroll 0% 0% #444;
+    color:#f3f3f3;
+    font-family: monospace;
+    font-weight: normal;
+    padding:1%;
+}
+hr{
+    border: 0;
+    border-bottom: 1px dashed #ffbb33;
+    
+}
+
+#contribute{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+#contribute h1, p{
+    width:100%;
+}
+
+#contribute ul{ flex-basis: 40% }
+#waysyoucanhelp{
+    width:45%;
+}
+#btc{width: 40%}
+
+none repeat scroll 0% 0% #444
+Source Sans Pro','Lucida Grande',sans-serif
